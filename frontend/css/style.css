@@ -1,0 +1,30 @@
+/* frontend/css/style.css */
+html,
+body,
+#jaas-container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.emotion-display {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  z-index: 1000;
+}
+
+#emotions-container {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  z-index: 1000;
+}
